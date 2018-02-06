@@ -1,0 +1,26 @@
+#button{
+ text-align: center;
+ padding: 1em;
+}
+header {
+    padding: 0.5em;
+    color: white;
+    background-color: #00b300;
+    clear: left;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+#tableDiv {
+    padding: 30px;
+}
+div {
+    padding: 20px;
+    font-family:"Calibri";
+}
+note 
+    margin-left: 200px;
+    padding: 1em;
+    overflow: hidden;
+    clear: left;
+}

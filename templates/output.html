@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Sorted Array</title>
+		  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     </head>
+     <body>
+		 <div class="container">
+			<div class="row">
+				<h1 class="page-header">Sorted Array!</h1>
+				<div class="col-md-12">
+					{% for number in numbers %}
+					  <p>{{number}}</p>
+					{% endfor %}
+				</div>
+				
+				
+			</div>
+			
+			<div class="row">
+			
+			  <p> Time taken to run the linear sort function </p>
+			  <p> Start Time: {{linearSortStartTime}} End Time: {{linearSortEndTime}} Time taken: {{linearSortEndTime - linearSortStartTime}}</p>
+			  <p> Time taken to run the Insertion sort function </p>
+			  <p> Start Time: {{InsertionSortStartTime}} End Time: {{InsertionSortEndTime}} Time taken: {{InsertionSortEndTime - InsertionSortStartTime}}</p>
+			  <p> Time taken to run the Bubble sort function </p>
+			  <p> Start Time: {{BubbleSortStartTime}} End Time: {{BubbleSortEndTime}} Time taken: {{BubbleSortEndTime - BubbleSortStartTime}}</p>
+			</div>
+		 </div>
+          
+          
+		  
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	 </body>
+</html>
